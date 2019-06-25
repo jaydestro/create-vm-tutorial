@@ -66,10 +66,6 @@ echo 'network ports'
 
 az vm open-port --port 80 --priority 199 --resource-group $RESOURCEGROUP --name $FONTENDVMNAME
 sleep 4
-az vm open-port --port 443  --priority 198 --resource-group $RESOURCEGROUP --name $FONTENDVMNAME
-sleep 4
-az vm open-port --port 22  --priority 197 --resource-group $RESOURCEGROUP --name $FONTENDVMNAME
-sleep 4
 
 echo 'You're done, when you're ready to delete this, execute this command in Cloud Shell'
 echo "az group delete -g $RESOURCEGROUP"
