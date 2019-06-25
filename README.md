@@ -5,3 +5,13 @@
 * VM Name - This will be the name for the VM that is created.
 * Subscription ID - you can get this by running `az account show --out json` 
 
+Note the following defaults:
+
+`--admin-username azureuser` 
+`--generate-ssh-keys`
+
+Requirements: 
+
+* Azure Account
+* Cloud Shell - Bash
+
