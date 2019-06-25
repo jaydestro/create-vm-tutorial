@@ -35,7 +35,7 @@ if [[ -z "$SUBSCRIPTION" ]]; then
 fi
 
 if [[ -z "$RESOURCEGROUP" ]]; then
-        echo "This script will create a new group "
+        echo "Enter a name for a resource group. This script will create a new group "
         read RESOURCEGROUP
         [[ "${RESOURCEGROUP:?}" ]]
 fi
