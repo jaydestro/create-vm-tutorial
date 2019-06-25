@@ -7,8 +7,11 @@
 
 Note the following defaults:
 
-`--admin-username azureuser` 
-`--generate-ssh-keys`
+```
+--admin-username azureuser 
+--generate-ssh-keys
+--image UbuntuLTS
+```
 
 Requirements: 
 
