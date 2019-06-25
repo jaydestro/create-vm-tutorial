@@ -18,3 +18,17 @@ Requirements:
 * Azure Account
 * Cloud Shell - Bash
 
+# Ansible node install
+
+The Ansible directory provides an npm/node install Ansible playbook.  Install from the Azure Cloud shell with the example host file for inventory and binary exectution:
+
+~/.ansible/hosts
+
+```
+[frontend]
+ip.of.server
+```
+
+```
+ansible-playbook --inventory-file=~/.ansible/hosts -u azureuser install_node.yaml
+```
