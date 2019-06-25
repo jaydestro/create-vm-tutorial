@@ -4,7 +4,7 @@
   become: yes
   vars:
     NODEJS_VERSION: "8"
-    ansible_distribution_release: "xenial" #trusty
+    ansible_distribution_release: "bionic" #UbuntuLTS
   tasks:
     - name: Install the gpg key for nodejs LTS
       apt_key:
