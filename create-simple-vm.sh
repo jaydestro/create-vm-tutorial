@@ -42,6 +42,7 @@ fi
 
 if [[ -z "$LOCATION" ]]; then
         echo "Enter the location for this deployment"
+       echo "List of available regions is 'centralus,eastasia,southeastasia,eastus,eastus2,westus,westus2,northcentralus,southcentralus,westcentralus,northeurope,westeurope,japaneast,japanwest,brazilsouth,australiasoutheast,australiaeast,westindia,southindia,centralindia,canadacentral,canadaeast,uksouth,ukwest,koreacentral,koreasouth,francecentral,southafricanorth,uaenorth"
         read LOCATION
 fi
 
